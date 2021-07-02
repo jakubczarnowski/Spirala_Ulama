@@ -34,7 +34,7 @@ def changePos(new_x, new_y):
     global x
     global y
     isPossible = False
-    sleep(1)
+    sleep(0.05)
     screen.fill((255, 255, 255))
     for i in range(0,len(primesList)):
         primesList[i].y += new_y
